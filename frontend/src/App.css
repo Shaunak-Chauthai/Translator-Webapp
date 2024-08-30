@@ -1,0 +1,31 @@
+.translation-display {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.upload-section {
+  margin-bottom: 20px;
+}
+
+.translations {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.text-block {
+  flex: 1;
+  margin: 0 20px;
+}
+
+h4 {
+  margin-bottom: 10px;
+}
+
+p {
+  background-color: #f0f0f0;
+  padding: 10px;
+  border-radius: 5px;
+}
