@@ -19,7 +19,7 @@ def process_customer_audio(request):
         tts_service = TextToSpeechService(language='en')
         english_audio_path = tts_service.text_to_speech(english_text, 'customer_output.mp3')
         
-        # Clean up
+        
         os.remove(file_path)
         
         return JsonResponse({
@@ -43,7 +43,7 @@ def process_agent_audio(request):
         tts_service = TextToSpeechService(language='es')
         spanish_audio_path = tts_service.text_to_speech(spanish_text, 'agent_output.mp3')
         
-        # Clean up
+        
         os.remove(file_path)
         
         return JsonResponse({
